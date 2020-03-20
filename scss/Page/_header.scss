@@ -1,0 +1,17 @@
+header{
+    .header {
+        &__logo {
+            width: 100px;
+            height: 100px;
+        }
+        &__logo-name {
+            background-color: red;
+            color: #fff;
+            font-size: 20px;
+        }
+        &__list-menu a {
+            display: block;
+        }
+    }
+    
+}

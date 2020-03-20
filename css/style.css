@@ -1,0 +1,38 @@
+header .header__logo {
+  width: 100px;
+  height: 100px; }
+header .header__logo-name {
+  background-color: red;
+  color: #fff;
+  font-size: 20px; }
+header .header__list-menu a {
+  display: block; }
+
+section .content {
+  background-color: red;
+  border: 10px 0; }
+  section .content #about-us__title h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px; }
+  section .content #about-us__news {
+    color: #fff;
+    line-height: 18px;
+    font-size: 18px; }
+    section .content #about-us__news span {
+      color: #000;
+      font-style: italic;
+      font-weight: 600; }
+  section .content #events__title h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px; }
+  section .content #events__list ul {
+    color: #fff; }
+section .price h3 {
+  text-align: center;
+  font-size: 30px; }
+section .price table {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

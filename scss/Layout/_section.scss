@@ -1,0 +1,49 @@
+section {
+    .content {
+        background-color: red;
+        border: 10px 0;
+        #about-us {
+            &__title {
+                h3 {
+                    text-align: center;
+                    color: #fff;
+                    font-size: 30px;
+                }
+            }
+            &__news {
+                color: #fff;
+                line-height: 18px;
+                font-size: 18px;
+                span {
+                    color: #000;
+                    font-style: italic;
+                    font-weight: 600;
+                }
+            }
+        }
+        #events {
+            &__title {
+                h3 {
+                    text-align: center;
+                    color: #fff;
+                    font-size: 30px;
+                }
+            }
+            &__list {
+                ul {
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+    .price{
+        h3 {
+            text-align: center;
+            font-size: 30px;
+        }
+        table {
+            text-align: center;
+        }
+    }
+}
